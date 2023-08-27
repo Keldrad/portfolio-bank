@@ -1,0 +1,15 @@
+.spinner {
+  width: 64px;
+  aspect-ratio: 1;
+  background-image: url('../assets/images/spinner.png');
+  animation: spinner-rotation 2s infinite linear;
+}
+
+@keyframes spinner-rotation {
+  from{
+    transform: rotate(0deg)
+  }
+  to{
+    transform: rotate(360deg)
+  }
+}

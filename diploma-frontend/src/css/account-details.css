@@ -1,0 +1,114 @@
+.transfer-form-wrapper {
+  max-width: 624px;
+  flex-grow: 1;
+}
+
+.transfer-form {
+  padding-left: 206px;
+}
+
+.transfer-form__line_account-number::before {
+  content: 'Номер счёта получателя';
+}
+
+.transfer-form__line_amount::before {
+  content: 'Сумма перевода';
+}
+
+.transfer-form .input-error-message {
+  transform: translateY(120%);
+}
+
+.account-details__upper-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.account-details__upper-line_flex-column {
+  flex-direction: column;
+}
+
+.chart-wrapper {
+  flex-grow: 1;
+  max-width: 684px;
+}
+
+.chart-wrapper_wide:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.chart-container {
+  height: 200px;
+}
+
+.chart {
+  width: 100%;
+}
+
+.chart-content_clickable, .transactions-history_clickable {
+  cursor: pointer;
+}
+
+.transactions-table {
+  display: flex;
+}
+
+.transfer-history-col {
+  margin: 0;
+  padding: 0;
+
+}
+
+.transfer-history-col:last-child {
+  flex-grow: 1;
+}
+
+.transfer-history__item {
+  margin: 0;
+  padding: 20px 0;
+  min-width: max-content;
+  border-bottom: 2px solid rgba(0, 82, 255, 0.10);
+}
+
+.transfer-history__item::marker {
+  content: '';
+}
+
+.transfer-history__item {
+  padding-right: 40px;
+}
+.transfer-history__item:last-child {
+  width: 100%;
+}
+
+.transfer-history__item_header {
+  background-color: var(--primary);
+  color: white;
+}
+
+.transfer-history-col:first-child .transfer-history__item {
+  padding-left: 50px;
+}
+
+.transfer-history-col:first-child .transfer-history__item:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.transfer-history-col:last-child .transfer-history__item {
+  padding-right: 50px;
+}
+
+.transfer-history-col:last-child .transfer-history__item:first-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.transfer-history__item_amount-plus {
+  color: var(--success);
+}
+
+.transfer-history__item_amount-minus {
+  color: var(--alert);
+}

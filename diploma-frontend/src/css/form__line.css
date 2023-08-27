@@ -1,0 +1,33 @@
+.form__line {
+  position: relative;
+}
+
+.form__line:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.form__line:last-child {
+  margin-bottom: 30px;
+}
+
+.form__line:has(.input-error-message) {
+  margin-bottom: 5px;
+}
+
+.form__line::before {
+  position: absolute;
+  top: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  transform: translate(calc(-100% - 18px), -50%);
+  letter-spacing: -0.01em;
+}
+
+.form__line_log::before {
+  content: 'Логин';
+}
+
+.form__line_pswd::before {
+  content: 'Пароль';
+}

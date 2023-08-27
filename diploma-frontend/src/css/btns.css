@@ -1,0 +1,84 @@
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none
+}
+
+.btn {
+  padding: 1em 1.5em;
+  border-radius: 7px;
+  font-weight: 500;
+  line-height: 20px;
+  outline: 2px solid;
+  outline-offset: -1.95px;
+  transition-property: background-color, outline, color;
+  transition-duration: .2s;
+}
+
+.btn-sm {
+  font-size: 14px;
+}
+
+.btn-med {
+  font-size: 16px;
+}
+
+.btn-lg {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  outline-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  outline-color: var(--primary-hover);;
+}
+
+.btn-primary:active {
+  background-color: var(--primary-active);
+  outline-color: var(--primary-active);
+}
+
+
+.btn-nav {
+  background-color: white;
+  color: var(--primary);
+  outline-color: var(--primary);
+}
+
+.btn-nav-act, .btn-nav:hover {
+  background-color: #a0c3eb;
+  outline-color: var(--primary-hover);
+}
+
+.btn-nav-act {
+  pointer-events: none;
+}
+
+.btn-nav:active {
+  background-color: #cfe1f5;
+  outline-color: var(--primary);
+}
+
+.btn-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.btn__icon {
+  margin-right: 10px;
+}
+
+.open-account-btn {
+  position: absolute;
+  right: 22px;
+  bottom: 22px;
+}

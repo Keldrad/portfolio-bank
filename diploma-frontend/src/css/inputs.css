@@ -1,0 +1,50 @@
+.input {
+  padding: 10px 16px;
+  width: 100%;
+  border: 1px solid #9CA3AF;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--input);
+}
+
+.input:hover, .input:focus {
+  outline: none;
+  border-color: var(--primary);
+  background-color: var(--input-focus);
+}
+
+.input:focus::placeholder{
+  color: transparent;
+}
+
+.input-error {
+  border-color: var(--error);
+}
+
+.input-error-message {
+  padding-left: 30px;
+  position: relative;
+  top: 50%;
+  left: 10px;
+  width: 100%;
+  transform: translateY(23px);
+  color: var(--error);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.input-error-message::before {
+  position: absolute;
+  left: 0px;
+  content: '';
+  width: 24px;
+  aspect-ratio: 1;
+  background-image: url('../assets/images/error-warning.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

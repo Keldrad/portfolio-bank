@@ -1,0 +1,20 @@
+:root {
+  --primary: #116ACC;
+  --primary-hover: #5896db;
+  --primary-active: #0c4a8f;
+  --primary-disabled: #c8cbd2;
+  --pr-grey: #F3F4F6;
+  --dark-grey: #E5E5E5;
+  --input-focus: #ebeff7;
+  --alert: #FD4E5D;
+  --success: #76CA66;
+  --warning: #FBC756;
+  --warning-bg: #f4f0e7;
+  --error: #BA0000;
+  --error-bg: #eedcde;
+  --info-bg: #dde7f2;
+  --sort-border: #9CA3AF;
+  --sort-hightlight: #A0C3FF;
+  --sort-color: #374151;
+  --selected-sort-after: #182233;
+}

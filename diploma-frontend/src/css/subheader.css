@@ -1,0 +1,70 @@
+.subheader-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.subheader-container_details {
+  flex-direction: column;
+}
+
+.subheader__left, .subheader__right {
+  display: flex;
+}
+
+.page-subheader {
+  display: inline-block;
+  margin-right: 35px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  align-items: center;
+  letter-spacing: -0.02em;
+}
+
+.subheader__top, .subheader__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.subheader__top {
+  margin-bottom: 24px;
+}
+
+.subheader__balance {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+}
+
+.subheader__balance::before {
+  content: 'Баланс';
+  margin-right: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+}
+
+.subheader__balance::after {
+  content: ' ₽';
+}
+
+.subheader__account-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+}
+
+.atms__subheader, .currency__subheader {
+  margin-bottom: 56px;
+}

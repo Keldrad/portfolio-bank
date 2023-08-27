@@ -1,0 +1,21 @@
+.login-modal {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  width: 100%;
+  max-width: 500px;
+  height: max-content;
+  max-height: 366px;
+  padding: 50px 85px 50px 115px;
+  transform: translate(-50%, -65%);
+}
+
+.login-modal__header {
+  padding-bottom: 35px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+
